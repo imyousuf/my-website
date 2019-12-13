@@ -1,0 +1,34 @@
+archetypeDir = "archetypes"
+author = "Imran M Yousuf"
+baseUrl = "https://imytech.net"
+buildDrafts = true
+relativeURLs = true
+canonifyUrls = true
+contentDir = "content"
+languageCode = "en-us"
+layoutDir = "layouts"
+publishDir = "public"
+theme = "pixyll"
+title = "IMYousuf's Tech Blog"
+enableEmoji = true
+DefaultContentLanguage = "en"
+disqusShortname = "tech-blog-wg30buosw5"
+
+[Languages]
+[Languages.en]
+  weight = 1
+
+[blackfriday]
+  angledQuotes = true
+  hrefTargetBlank = true
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  mainSections = ["post", "posts"]
+  search_engine = true
+  google_analytics_id = "UA-43331728-2"
+  twitter_username = "imyousuf"
+  paginate = 5
