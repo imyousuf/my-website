@@ -12,6 +12,7 @@ Recently I took a technical session on "Designing Good API and its importance" a
 View more [presentations](http://www.slideshare.net/) from [imyousuf](http://www.slideshare.net/imyousuf)
 
   
-The original TechTalk of Joshua Bloch is as follows:  
+The original TechTalk of Joshua Bloch is as follows:
+{{< youtube aAb7hSCtvGw >}}
   
 Criticisms of my presentation are most welcome.
