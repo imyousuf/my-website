@@ -10,6 +10,14 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@master
+      - name: Checkout main repository
+      - uses: actions/checkout@master
+      - name: Checkout themes
+        shell: bash
+        run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
       - uses: jakejarvis/hugo-build-action@master
         with:
           args: --minify --buildDrafts
