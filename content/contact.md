@@ -1,9 +1,10 @@
-+++
-title = "Contact me"
-date =  2019-12-06T12:03:55-05:00
-tags = ["general"]
-draft = false
-author = "Imran M Yousuf"
-+++
+---
+title: "Contact me"
+date:  2019-12-06T12:03:55-05:00
+tags: ["general"]
+draft: false
+author: "Imran M Yousuf"
+slug: "contact"
+---
 
-Hello world Contact!
+Hello world {{< rawhtml >}} <strong>Contact</strong> me <i>safely</i> {{< /rawhtml >}}
