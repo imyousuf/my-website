@@ -31,7 +31,6 @@ disqusShortname = "tech-blog-wg30buosw5"
 
 [params]
   mainSections = ["post", "posts", "legacy-posts"]
-  search_engine = true
   google_analytics_id = "UA-43331728-2"
   twitter_username = "imyousuf"
   paginate = 5
