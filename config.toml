@@ -26,6 +26,9 @@ disqusShortname = "tech-blog-wg30buosw5"
   category = "categories"
   tag = "tags"
 
+[taxonomies]
+  tag = "tags"
+
 [params]
   mainSections = ["post", "posts", "legacy-posts"]
   search_engine = true
