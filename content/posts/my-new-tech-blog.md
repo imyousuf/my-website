@@ -1,6 +1,6 @@
 ---
 title: "My New Tech Blog"
-date:  "2020-04-03T12:03:55-05:00"
+date:  "2020-04-02T12:03:55-05:00"
 tags: ["general", "announcement"]
 draft: false
 author: "Imran M Yousuf"
