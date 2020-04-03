@@ -7,4 +7,4 @@ author: "Imran M Yousuf"
 slug: "contact"
 ---
 
-Hello world {{< rawhtml >}} <strong>Contact</strong> me <i>safely</i> {{< /rawhtml >}}
+Please reach out to be via [Twitter](https://twitter.com/imyousuf).
